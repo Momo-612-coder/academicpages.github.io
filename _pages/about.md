@@ -4,7 +4,7 @@ title: "About Me ——（莫湘渝）MoXiangyu's academic pages"
 author_profile: true
 redirect_from: 
   - /about/
- - /about.html
+  - /about.html
 ---
 
 **My Email：1497016577@qq.com ; xiangyumo6@gmail.com ; 20232373@stu.cqu.edu.cn**
