@@ -11,7 +11,7 @@ I am a student in the **Mingyue Innovation & Entrepreneurship Honors Class** at 
 
 My primary research and engineering interests focus on **flight control systems, embedded hardware design, and system-level integration** for unmanned platforms. I have designed and implemented **custom electrical control units**, **CAN-based communication networks**, and **vision-guided flight control pipelines**, enabling reliable coordination between **flight controllers, propulsion units, sensors, and actuators** in UAV systems.
 
-I have extensive experience in **open-source flight controller secondary development (PX4-based)**, including **control logic modification, middleware communication, and hardware¨Csoftware co-debugging**. My work also includes **flight dynamics modeling and simulation**, which I use to validate control strategies before deployment on real hardware.
+I have extensive experience in **open-source flight controller secondary development (PX4-based)**, including **control logic modification, middleware communication, and hardwareâ€“software co-debugging**. My work also includes **flight dynamics modeling and simulation**, which I use to validate control strategies before deployment on real hardware.
 
 Through national-level robotics and electronic design competitions and research projects, I have developed strong capabilities in **engineering verification, system debugging, and reliability-oriented design**. My work emphasizes **transforming theoretical models into stable, deployable, and field-tested autonomous systems**, particularly for **UAVs and robotic platforms operating under strict power, timing, and safety constraints**.
 
