@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "ABOUT ME_____Here is MoXiangyu's academic pages"
+title: "About Me ——（莫湘渝）MoXiangyu's academic pages"
 author_profile: true
 redirect_from: 
   - /about/
