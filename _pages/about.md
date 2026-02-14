@@ -17,7 +17,7 @@ Through national-level robotics and electronic design competitions and research 
 
 You can find my CV here: [MoXiangyu's CV]({{ "/assets/MXY_CV.pdf" | relative_url }}).
 
-[Email](mailto:xiangyumo6@gmail.com) / [Wechat]({{ "/images/wechat.jpg" | relative_url }}) 
+[Email](mailto:xiangyumo6@gmail.com) / ![Wechat]({{ "/images/wechat.jpg" | relative_url }})
 
 
 A data-driven personal website
