@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "ABOUT ME_____Here is MoXiangyu's academic pages"
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,7 +15,7 @@ I have extensive experience in **open-source flight controller secondary develop
 
 Through national-level robotics and electronic design competitions and research projects, I have developed strong capabilities in **engineering verification, system debugging, and reliability-oriented design**. My work emphasizes **transforming theoretical models into stable, deployable, and field-tested autonomous systems**, particularly for **UAVs and robotic platforms operating under strict power, timing, and safety constraints**.
 
-You can find my CV here: [MoXiangyu's Curriculum Vitae](../assets/MXY_CV.pdf).
+You can find my CV here: [MoXiangyu's CV](../assets/MXY_CV.pdf).
 
 [Email](mailto:xiangyumo6@gmail.com) / [Wechat](../images/wechat.jpg) 
 
