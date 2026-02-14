@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-下面是你给出的全部内容，整理为**标准学术简历风格的 Markdown（中文）**，结构清晰，可直接用于 GitHub / 学术主页 / Overleaf。
-
 ---
 
 # 教育背景
@@ -172,4 +170,3 @@ redirect_from:
 
 ---
 
-如果你要用于 **GitHub Academic Page / CV / 申请材料**，我可以再帮你压缩到「1 页科研型简历版」或「PhD 申请版」。
