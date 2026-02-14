@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a student in the **Mingyue Innovation & Entrepreneurship Honors Class** at **Chongqing University**, majoring in **Robotics Engineering**. My training follows a **project-driven and interdisciplinary engineering framework**, integrating **control theory, embedded systems, power electronics, sensing, and computer vision** into complete robotic and aerial systems.
+I am a student in the **Mingyue Innovation Class** at **Chongqing University**, majoring in **Robotics Engineering**. My training follows a **project-driven and interdisciplinary engineering framework**, integrating **control theory, embedded systems, power electronics, sensing, and computer vision** into complete robotic and aerial systems.
 
 My primary research and engineering interests focus on **flight control systems, embedded hardware design, and system-level integration** for unmanned platforms. I have designed and implemented **custom electrical control units**, **CAN-based communication networks**, and **vision-guided flight control pipelines**, enabling reliable coordination between **flight controllers, propulsion units, sensors, and actuators** in UAV systems.
 
@@ -15,9 +15,9 @@ I have extensive experience in **open-source flight controller secondary develop
 
 Through national-level robotics and electronic design competitions and research projects, I have developed strong capabilities in **engineering verification, system debugging, and reliability-oriented design**. My work emphasizes **transforming theoretical models into stable, deployable, and field-tested autonomous systems**, particularly for **UAVs and robotic platforms operating under strict power, timing, and safety constraints**.
 
-You can find my CV here: [MoXiangyu's CV](../assets/MXY_CV.pdf).
+You can find my CV here: [MoXiangyu's CV]({{ "/assets/MXY_CV.pdf" | relative_url }}).
 
-[Email](mailto:xiangyumo6@gmail.com) / [Wechat](../images/wechat.jpg) 
+[Email](mailto:xiangyumo6@gmail.com) / [Wechat]({{ "/images/wechat.jpg" | relative_url }}) 
 
 
 A data-driven personal website
