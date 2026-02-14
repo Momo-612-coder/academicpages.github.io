@@ -9,56 +9,167 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+下面是你给出的全部内容，整理为**标准学术简历风格的 Markdown（中文）**，结构清晰，可直接用于 GitHub / 学术主页 / Overleaf。
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+---
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# 教育背景
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**重庆大学｜国家卓越工程师学院**（重庆）
+*机器人工程 本科*
+**2023.09 – 2026.02**
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **专业排名**：3 / 58（前 5%）  **GPA**：88.93 / 100
+* **核心课程**：
+  定量工程设计方法（93）、微电路设计（99）、机器人基础（94）、自动控制原理（95）、数学物理方法（92）、线性代数（84）、概率论与数理统计（82）
+* **英语能力**：CET-6（484）
+
+---
+
+# 科研经历
+
+## 国家级大学生创新训练计划（国家级）
+
+**负责人 / 电控与硬件**
+*2024.11 – 2025.12*
+
+**项目简介**
+面向定点灭火与精准投放场景，构建“发射端粗瞄 + 飞行器末端精导”的分层视觉制导体系，实现发射—飞行—末端修正—投放的闭环控制。
+
+**本人职责（项目负责人 & 电控负责人）**
+
+* 构建飞行器航电系统架构（飞控、IMU、视觉、电源、执行机构）
+* 设计飞行器控制与驱动电路（舵机、电机、传感器接口）
+* 实现姿态控制与末端制导控制链路（视觉 → 控制 → 执行）
+* 参与重心与结构布局优化，使控制与结构协同设计
+
+**项目成果**
+
+* 构建并验证视觉制导飞行系统，实现“识别—对准—飞行—修正—投放”闭环
+* 25 m 测试下 30 cm 圆内命中率 80%
+* 完成小型化航电与摩擦轮可控发射方案
+* 国家级大创项目结题 **优秀**
+
+**工程突破**
+
+* 在 **40 × 40 mm** 内高度集成视觉 + IMU + 控制 + 执行
+* 采用“算力下沉”架构，将重计算部署在发射端
+* 解决高速无动力小型飞行器在强扰动下的姿态与视觉稳定性问题
+
+---
+
+## 重庆大学第十六届大学生科研训练计划
+
+**电控与航电**
+*2024.11 – 2025.09*
+
+**项目简介**
+面向空中取物与目标转运，研制集成抓取机构的多旋翼无人机系统。
+
+**成果**
+
+* 实现飞控与抓取执行器协同控制
+* 在带载条件下完成多轮空中抓取与释放实验
+* 项目结题 **良好**
+
+---
+
+## FT580 纵列双旋翼载重无人机（校企合作）
+
+**飞控 / 航电系统工程师**
+*2025.09 – 至今*
+
+**项目简介**
+面向 500 kg 级中大型载重无人机，开展纵列双旋翼气动、动力与飞控航电一体化设计。
+
+**本人负责**
+
+* 基于 **PX4** 进行二次开发，设计 **DroneCAN** 飞控–航电通信架构
+* 在 **Simulink + PX4** 中完成飞控与执行机构建模与仿真
+* 解耦纵列双旋翼滚转 / 俯仰控制（周期变桨）
+* 自研机载电气控制器，统一管理发动机、油泵、风冷、舵机与传感器
+* 设计多电源域隔离与 CAN + RS485 冗余通信
+* 开发 **>150A 隔离式电流/电压传感器节点** 接入 PX4 实时监测
+
+---
+
+# 竞赛经历
+
+## RoboMaster 2024 全国赛 — 全国二等奖
+
+*2024.03 – 2024.08*
+
+* 负责机器人电气系统设计与布线
+* 设计并制作机器人主控板、FOC 电机控制板与自定义控制器
+
+## RoboMaster 2025 全国赛 — 全国三等奖
+
+*2024.09 – 2025.06*
+
+* 负责无人机整机电控（云台、电源、驱动、通信、控制）
+* 自研并迭代 FOC 电调并投入实战
+* 设计高速视觉自瞄云台与射击机构协同控制
+* 解决高动态飞行下供电完整性与实时控制问题
+
+## 全国大学生电子设计竞赛 — 全国二等奖
+
+*2024.09 – 2025.06*
+
+* 负责云台与系统控制
+* 建立云台动力学模型并设计控制器
+* 构建视觉–云台–底盘系统级闭环
+* 解决坐标映射、时间同步与稳定性问题
+
+---
+
+# 实习实践
+
+**凌犀创新｜压缩机电机 FOC 控制工程师**（重庆）
+*2025.07 – 2025.09*
+
+* Matlab 电机系统建模与仿真
+* 控制算法迁移、PCB 设计、嵌入式程序开发与调试
+* 系统测试与性能建模
+
+**DJI 大疆创新｜RM 联盟赛检录技术负责人**（重庆）
+*2026.01 – 2026.04*
+
+---
+
+# 创业实践
+
+**灵渡创新联创｜嵌入式软硬件**（重庆）
+*2025.09 – 至今*
+
+* 研发 AI 实体陪伴型产品原型
+* 设计仿生动作控制算法（正弦轨迹 + 相位参数化）
+* 建立“动作–情绪”映射模型
+* 构建软硬件驱动框架与用户驱动迭代体系
+
+---
+
+# 其他信息
+
+## 专业技能
+
+* **嵌入式**：ARM-GCC、Keil、Linux
+* **PCB**：KiCad、AD、立创 EDA
+* **控制与仿真**：MATLAB/Simulink、PSIM、Multisim
+* **机器人与飞控**：ROS、PX4
+* **软件**：Qt、Unity、SolidWorks
+
+## 荣誉
+
+* 鸿博社会奖学金
+* 多次校级优秀学生奖学金
+* 科学技术先进个人、三好学生等 12 项
+
+## 项目型与工程能力优势
+
+* 融合 **飞行器、机器人、控制、视觉与嵌入式系统** 的系统级训练
+* 具备从需求拆解 → 建模 → 硬件设计 → 控制实现 → 系统联调的完整工程闭环
+* 在国家级项目与竞赛中长期担任核心技术角色，具备工程化落地能力
+
+---
+
+如果你要用于 **GitHub Academic Page / CV / 申请材料**，我可以再帮你压缩到「1 页科研型简历版」或「PhD 申请版」。
