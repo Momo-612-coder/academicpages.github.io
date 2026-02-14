@@ -15,7 +15,7 @@ Basic info
 
 Short Self-introduction
 ======
-<img src="{{ site.baseurl }}/images/fujimountain.jpg" alt="MoXiangyu" style="float:right; width:160px; margin:0 0 10px 15px;" />
+<img src="{{ site.baseurl }}/images/fujimountain.jpg" alt="MoXiangyu" style="float:right; width:260px; margin:0 0 10px 15px;" />
 I am a student in the **Mingyue Innovation Class** at **Chongqing University**, majoring in **Robotics Engineering**. My training follows a **project-driven and interdisciplinary engineering framework**, integrating **control theory, embedded systems, power electronics, sensing, and computer vision** into complete robotic and aerial systems.
 
 My primary research and engineering interests focus on **flight control systems, embedded hardware design, and system-level integration** for unmanned platforms. I have designed and implemented **custom electrical control units**, **CAN-based communication networks**, and **vision-guided flight control pipelines**, enabling reliable coordination between **flight controllers, propulsion units, sensors, and actuators** in UAV systems.
@@ -25,8 +25,8 @@ I have extensive experience in **open-source flight controller secondary develop
 Through national-level robotics and electronic design competitions and research projects, I have developed strong capabilities in **engineering verification, system debugging, and reliability-oriented design**. My work emphasizes **transforming theoretical models into stable, deployable, and field-tested autonomous systems**, particularly for **UAVs and robotic platforms operating under strict power, timing, and safety constraints**.
 
 
-You can find my CV here: [MoXiangyu's CV]({{ site.baseurl }}/assets/MXY_CV.pdf).
-You can get my WeChat here:[Wechat]({{ site.baseurl }}/images/wechat.jpg). 
+You can glance over my CV（PDF format）here: [MoXiangyu's CV]({{ site.baseurl }}/assets/MXY_CV.pdf).  
+You can get my WeChat account here:[Wechat]({{ site.baseurl }}/images/wechat.jpg). 
 
 
 A data-driven personal website
