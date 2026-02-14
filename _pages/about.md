@@ -8,9 +8,11 @@ redirect_from:
 ---
 Basic info
 ======
+
 **My Email：1497016577@qq.com ; xiangyumo6@gmail.com ; 20232373@stu.cqu.edu.cn**  
 **My Tel & wechat account：13132324983**  
-**My QQ account ：1497016577**  
+**My QQ account ：1497016577**
+  
 Short Self-introduction
 ======
 I am a student in the **Mingyue Innovation Class** at **Chongqing University**, majoring in **Robotics Engineering**. My training follows a **project-driven and interdisciplinary engineering framework**, integrating **control theory, embedded systems, power electronics, sensing, and computer vision** into complete robotic and aerial systems.
