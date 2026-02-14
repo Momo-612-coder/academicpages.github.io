@@ -6,12 +6,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+Basic info
+======
 **My Email：1497016577@qq.com ; xiangyumo6@gmail.com ; 20232373@stu.cqu.edu.cn**  
 **My Tel & wechat account：13132324983**  
 **My QQ account ：1497016577**  
-
-
+Short Self-introduction
+======
 I am a student in the **Mingyue Innovation Class** at **Chongqing University**, majoring in **Robotics Engineering**. My training follows a **project-driven and interdisciplinary engineering framework**, integrating **control theory, embedded systems, power electronics, sensing, and computer vision** into complete robotic and aerial systems.
 
 My primary research and engineering interests focus on **flight control systems, embedded hardware design, and system-level integration** for unmanned platforms. I have designed and implemented **custom electrical control units**, **CAN-based communication networks**, and **vision-guided flight control pipelines**, enabling reliable coordination between **flight controllers, propulsion units, sensors, and actuators** in UAV systems.
