@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-6-personalpractice4
 excerpt: "用于展示在大二（上）学期所有课外实践，包括Robomaster机器人实验室实践，创新/创业实践，竞赛等等"
-date: 2025.1
+date: 2025-01-21
 #venue: 'Journal 1'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 #paperurl: 'http://momo-612-coder.github.io/academicpages.github.io/files/personal_practice_5.pdf'

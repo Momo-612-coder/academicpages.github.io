@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026-2-personalpractice5
 excerpt: "用于展示在大三（上）学期所有课外实践，包括无人机技术实验室研究，创新/创业实践，竞赛等等"
-date: 2026.2
+date: 2026-01-21
 #venue: 'Journal 1'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 #paperurl: 'http://momo-612-coder.github.io/academicpages.github.io/files/personal_practice_5.pdf'
