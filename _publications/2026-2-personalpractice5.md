@@ -2,12 +2,12 @@
 title: "个性化实践-大三（上）"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This work presents a project-driven and system-level engineering practice in UAVs and intelligent hardware, integrating flight control, embedded systems, power electronics, sensing, and user-oriented design into deployable prototypes..'
-date: 2025.9-2026.2
+permalink: /publication/2026-2-personalpractice5
+excerpt: "用于展示在大三（上）学期所有课外实践，包括无人机技术实验室研究，创新/创业实践，竞赛等等"
+date: 2026.2
 #venue: 'Journal 1'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://momo-612-coder.github.io/academicpages.github.io/files/personal_practice_5.pdf'
+#paperurl: 'http://momo-612-coder.github.io/academicpages.github.io/files/personal_practice_5.pdf'
 #bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 #citation: '莫湘渝, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
