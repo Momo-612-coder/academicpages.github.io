@@ -10,15 +10,15 @@ location: "ChongQing China"
 excerpt: |
   <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-start; justify-content:center;">
     <figure style="margin:0; text-align:center;">
-      <img src="/academicpages.github.io/images/rm2024国二.jpg" style="width:280px; height:auto; display:block; margin:0 auto;" alt="rm2024国二" />
+      <img src="/academicpages.github.io/images/rm2024国二.jpg" style="width:380px; height:auto; display:block; margin:0 auto;" alt="rm2024国二" />
       <figcaption style="font-size:0.85em; margin-top:6px;">2024 RoboMaster 全国赛 二等奖</figcaption>
     </figure>
     <figure style="margin:0; text-align:center;">
-      <img src="/academicpages.github.io/images/rm2025国三.jpg" style="width:280px; height:auto; display:block; margin:0 auto;" alt="rm2025国三" />
+      <img src="/academicpages.github.io/images/rm2025国三.jpg" style="width:380px; height:auto; display:block; margin:0 auto;" alt="rm2025国三" />
       <figcaption style="font-size:0.85em; margin-top:6px;">2025 RoboMaster 全国赛 三等奖</figcaption>
     </figure>
     <figure style="margin:0; text-align:center;">
-      <img src="/academicpages.github.io/images/电赛国赛.jpg" style="width:280px; height:auto; display:block; margin:0 auto;" alt="电赛国赛" />
+      <img src="/academicpages.github.io/images/电赛国赛.jpg" style="width:380px; height:auto; display:block; margin:0 auto;" alt="电赛国赛" />
       <figcaption style="font-size:0.85em; margin-top:6px;">电子设计大赛 国家二等奖</figcaption>
     </figure>
   </div>
