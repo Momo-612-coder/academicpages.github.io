@@ -13,7 +13,7 @@ date: 2025-10-17
 ## Abstract
 
 ## Detailed Abstract
-
+<img src="{{ site.baseurl }}/images/Automatic-control(5).jpg" alt="Automatic-control(5)" style="display:block; margin:0 auto 1rem auto; max-width:100%; width:460px; height:auto;" />
 This course project presents the design, modeling, analysis, and implementation of a DC regulated power supply based on a Buck converter, followed by the development of an intelligent desk lamp control system as an integrated application. The work is conducted within the framework of classical control theory, combining power electronics with feedback control principles.
 
 The Buck converter operates in **Continuous Conduction Mode (CCM)** with a 24 V DC input and a nominal 12 V output (adjustable from 10 V to 12 V), delivering up to 2 A load current. A small-signal averaged model is derived using linearization around the steady-state operating point. The control-to-output transfer function is obtained, representing the power stage as a second-order system dominated by the LC output filter dynamics. The resulting mathematical model serves as the foundation for controller design and frequency-domain analysis.
