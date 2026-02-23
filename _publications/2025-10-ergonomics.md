@@ -2,7 +2,7 @@
 title: "大三（上）——工效学"
 collection: publications
 category: conferences
-permalink: /publication/2025-10-microcircuit-design
+permalink: /publication/2025-10-ergonomics
 excerpt: "本研究面向 **甲/乙类仓储火灾** 高危环境，基于 **人机工效学（Ergonomics）** 和 **Wickens 多资源理论**，设计并验证了一套 **异构人机协同智能救援系统**，融合 **Gemini 多模态大模型** 与 **AR 导航 UI**，显著优化了救援认知负荷和行动绩效。
 "
 date: 2025-10-17
