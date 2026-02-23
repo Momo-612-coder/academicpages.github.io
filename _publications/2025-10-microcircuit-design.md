@@ -2,7 +2,7 @@
 title: "大三（上）——微电路设计"
 collection: publications
 category: conferences
-permalink: /publication/2025-10-grade5
+permalink: /publication/2025-10-microcircuit-design
 excerpt: "以扫地机器人为载体的交叉项目驱动专业学科，涉及嵌入式软硬件（包含PCB设计，绘制，程序编写等），运动控制，激光雷达，导航算法，路径规划，上位机控制等一体化项目"
 date: 2025-10-17
 #venue: 'GitHub Journal of Bugs'
