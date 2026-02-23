@@ -11,7 +11,10 @@ date: 2025-10-17
 ---
 
 ## Abstract
+You can get more information just clicking here：[数学物理方法-3D打印层状应力分析]({{ site.baseurl }}/files/Method-of-mathematicsphysic(5).pdf).
+
 <img src="{{ site.baseurl }}/images/Method-of-mathematicsphysic(5).jpg" alt="Method-of-mathematicsphysic(5)" style="display:block; margin:0 auto 1rem auto; max-width:100%; width:660px; height:auto;" />
+
 This study systematically investigates the **strain distribution** and **stress concentration** characteristics of **Fused Deposition Modeling (FDM) 3D printed layered materials** under varying **raster angles**. The work focuses on **PLA beams** subjected to **three-point bending**, combining **theoretical modeling**, **numerical solution**, **finite element simulation**, and **experimental validation** to analyze the influence of **print orientation** on structural load capacity and failure mechanisms.
 
 At the theoretical level, a **multi-layered beam stress field model** is established using **two-dimensional elasticity** and **Airy stress functions**. **Fourier series expansion** is employed to derive an analytical solution, while **orthotropic assumptions** and the **Tsai-Hill failure criterion** are applied to predict theoretical failure stress for different printing angles.
@@ -22,5 +25,4 @@ Experimental **three-point bending tests** confirm the theoretical and simulatio
 
 Overall, the study demonstrates a **non-linear influence** of raster angle on mechanical performance. Minor deviations from the **ideal printing direction** result in limited strength variation, while angles beyond a **critical threshold** drastically reduce **interlayer load transfer** and overall structural capacity. The integrated theoretical, numerical, simulation, and experimental approach elucidates the mechanical essence of **orientation effects** in FDM printed components, providing a reliable foundation for **raster angle optimization** and structural design in engineering applications.
 
-You can get more information just clicking here：[数学物理方法-3D打印层状应力分析]({{ site.baseurl }}/files/Method-of-mathematicsphysic(5).pdf). 
 ------

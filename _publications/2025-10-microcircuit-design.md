@@ -11,7 +11,10 @@ date: 2025-10-17
 ---
 
 ## Abstract
+You can get more information just clicking here：[微电路设计报告]({{ site.baseurl }}/files/Microcircuit(5).pdf). 
+
 <img src="{{ site.baseurl }}/images/Microcircuit(5).jpg" alt="Microcircuit(5)" style="display:block; margin:0 auto 1rem auto; max-width:100%; width:660px; height:auto;" />
+
 This project presents the design and implementation of an **intelligent autonomous vacuum-cleaning robot (BY3D-Pro)** developed for the **Microcircuit Design** course. The system integrates **custom embedded hardware, real-time control firmware, wireless communication, and ROS2-based autonomous navigation** to realize a practical household cleaning robot with high precision, robustness, and interactivity.
 
 The robot adopts a **heterogeneous and decoupled architecture** composed of an **x86 host running ROS2**, an **STM32F407 microcontroller** for hard real-time control, and **dual ESP32 coprocessors** for communication isolation. High-bandwidth LiDAR data and low-latency motion commands are transmitted on separate wireless links, preventing perception traffic from disturbing the motor control loop and ensuring deterministic control behavior.
@@ -24,5 +27,4 @@ On the hardware side, the robot employs a **multi-domain power system** with a *
 
 Overall, the project demonstrates a **full-stack robotic platform** that tightly couples **microcircuit design, embedded real-time control, and modern autonomous navigation algorithms**, delivering a vacuum robot capable of **accurate mapping, smooth motion, robust obstacle avoidance, and practical home deployment**.
 
-You can get more information just clicking here：[微电路设计报告]({{ site.baseurl }}/files/Microcircuit(5).pdf). 
 ------

@@ -12,7 +12,10 @@ date: 2025-10-17
 ---
 
 ## Abstract
+You can get more information just clicking here：[工效学遥操UI系统设计报告]({{ site.baseurl }}/files/ergonomics(5).pdf). 
+
 <img src="{{ site.baseurl }}/images/ergonomics(5).jpg" alt="ergonomics(5)" style="display:block; margin:0 auto 1rem auto; max-width:100%; width:660px; height:auto;" />
+
 **Background and Objective:**  
 Warehouse fires of **Class A/B** present highly hazardous conditions. Dense smoke and complex structures often result in **spatial disorientation** and **cognitive overload** for rescue personnel. To overcome limitations of traditional “perception‑decision” models in rescue operations, this study develops a **heterogeneous human-robot teaming** system grounded in **human factors engineering** and **Wickens' Multiple Resource Theory**.
 
@@ -31,6 +34,4 @@ The collaborative system significantly improved overall rescue efficiency:
 **Conclusions:**  
 The study confirms the feasibility of integrating **large-model intelligence** with **AR visualization** for single-rescuer decision support in extreme environments. The findings provide **empirical support** for developing next-generation **smart firefighting equipment** emphasizing a unified “perception‑computation‑execution” framework, and highlight conditions under which AI enhances human cognitive offloading and operational efficiency.
 
-
-You can get more information just clicking here：[工效学遥操UI系统设计报告]({{ site.baseurl }}/files/ergonomics(5).pdf). 
 ------
