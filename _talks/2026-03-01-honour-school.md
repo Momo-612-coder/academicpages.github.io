@@ -142,23 +142,18 @@ excerpt: |
 <div style="display:flex; justify-content:center; gap:28px; flex-wrap:wrap; text-align:center;">
 
   <div>
-    <img src="{{ site.baseurl }}/images/大一科学技术先进个人.jpg" style="width:210px;" />
+    <img src="{{ site.baseurl }}/images/大一科学技术先进个人.jpg" style="width:210px;transform: rotate(-90deg);" />
     <p>2023-2024学年 科学技术先进个人</p>
   </div>
 
   <div>
-    <img src="{{ site.baseurl }}/images/大二三好学生.jpg" style="width:210px;" />
+    <img src="{{ site.baseurl }}/images/大二三好学生.jpg" style="width:210px;transform: rotate(-90deg);" />
     <p>2024-2025学年 三好学生</p>
   </div>
 
   <div>
-    <img src="{{ site.baseurl }}/images/军政优秀学员.jpg" style="width:210px;" />
+    <img src="{{ site.baseurl }}/images/军政优秀学员.jpg" style="width:210px;transform: rotate(-90deg);" />
     <p>军政优秀学员</p>
-  </div>
-
-  <div>
-    <img src="{{ site.baseurl }}/images/社会奖学金.jpg" style="width:210px;" />
-    <p>鸿博社会奖学金</p>
   </div>
 
 </div>
@@ -168,19 +163,24 @@ excerpt: |
 <h3 style="text-align:center;">二、奖学金类</h3>
 
 <div style="display:flex; justify-content:center; gap:28px; flex-wrap:wrap; text-align:center;">
-
+  
   <div>
-    <img src="{{ site.baseurl }}/images/大一上奖学金.jpg" style="width:210px;" />
+    <img src="{{ site.baseurl }}/images/社会奖学金.jpg" style="width:210px;" />
+    <p>鸿博社会奖学金</p>
+  </div>
+  
+  <div>
+    <img src="{{ site.baseurl }}/images/大一上奖学金.jpg" style="width:210px;transform: rotate(-90deg);" />
     <p>大一上优秀学生奖学金</p>
   </div>
 
   <div>
-    <img src="{{ site.baseurl }}/images/大一下奖学金.jpg" style="width:210px;" />
+    <img src="{{ site.baseurl }}/images/大一下奖学金.jpg" style="width:210px;transform: rotate(-90deg);" />
     <p>大一下优秀学生奖学金</p>
   </div>
 
   <div>
-    <img src="{{ site.baseurl }}/images/大二下奖学金.jpg" style="width:210px;" />
+    <img src="{{ site.baseurl }}/images/大二下奖学金.jpg" style="width:210px;transform: rotate(-90deg);" />
     <p>大二下优秀学生奖学金</p>
   </div>
 
