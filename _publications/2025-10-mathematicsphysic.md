@@ -11,7 +11,7 @@ date: 2025-10-17
 ---
 
 ## Abstract
-<img src="{{ site.baseurl }}/images/Method-of-mathematicsphysic(5).jpg" alt="Method-of-mathematicsphysic(5)" style="display:block; margin:0 auto 1rem auto; max-width:100%; width:460px; height:auto;" />
+<img src="{{ site.baseurl }}/images/Method-of-mathematicsphysic(5).jpg" alt="Method-of-mathematicsphysic(5)" style="display:block; margin:0 auto 1rem auto; max-width:100%; width:660px; height:auto;" />
 This study systematically investigates the **strain distribution** and **stress concentration** characteristics of **Fused Deposition Modeling (FDM) 3D printed layered materials** under varying **raster angles**. The work focuses on **PLA beams** subjected to **three-point bending**, combining **theoretical modeling**, **numerical solution**, **finite element simulation**, and **experimental validation** to analyze the influence of **print orientation** on structural load capacity and failure mechanisms.
 
 At the theoretical level, a **multi-layered beam stress field model** is established using **two-dimensional elasticity** and **Airy stress functions**. **Fourier series expansion** is employed to derive an analytical solution, while **orthotropic assumptions** and the **Tsai-Hill failure criterion** are applied to predict theoretical failure stress for different printing angles.

@@ -12,7 +12,7 @@ date: 2025-10-17
 ---
 
 ## Abstract
-<img src="{{ site.baseurl }}/images/ergonomics(5).jpg" alt="ergonomics(5)" style="display:block; margin:0 auto 1rem auto; max-width:100%; width:460px; height:auto;" />
+<img src="{{ site.baseurl }}/images/ergonomics(5).jpg" alt="ergonomics(5)" style="display:block; margin:0 auto 1rem auto; max-width:100%; width:660px; height:auto;" />
 **Background and Objective:**  
 Warehouse fires of **Class A/B** present highly hazardous conditions. Dense smoke and complex structures often result in **spatial disorientation** and **cognitive overload** for rescue personnel. To overcome limitations of traditional “perception‑decision” models in rescue operations, this study develops a **heterogeneous human-robot teaming** system grounded in **human factors engineering** and **Wickens' Multiple Resource Theory**.
 
