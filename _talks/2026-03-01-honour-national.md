@@ -7,7 +7,14 @@ permalink: /talks/2026-03-01-honour-national
 #venue: "UC San Francisco, Department of Testing"
 date: 2026-06-01
 location: "ChongQing China"
+excerpt: |
+  <p style="margin:0 0 6px 0; font-size:0.95em;">部分国家级/全国性奖项（缩略图）：</p>
+  <img src="/academicpages.github.io/images/rm2024国二.jpg" style="width:120px; margin-right:6px;" alt="rm2024国二" />
+  <img src="/academicpages.github.io/images/rm2025国三.jpg" style="width:120px; margin-right:6px;" alt="rm2025国三" />
+  <img src="/academicpages.github.io/images/电赛国赛.jpg" style="width:120px;" alt="电赛国赛" />
 ---
+
+<p style="text-align:center; font-size:1.05em; margin-bottom:0.5rem;">下面是我在近年中获得的若干国家级/全国性比赛奖项（每张图下有简短说明）：</p>
 
 <div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap; text-align:center;">
 
