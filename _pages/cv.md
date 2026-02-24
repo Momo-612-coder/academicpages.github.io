@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ---
-
+**You can glance over my CV(PDF format) here**: [MoXiangyu's CV]({{ site.baseurl }}/assets/MXY_CV.pdf).  
 # 教育背景
 
 **重庆大学｜国家卓越工程师学院**（重庆）
