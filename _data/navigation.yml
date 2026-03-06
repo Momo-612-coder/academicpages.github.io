@@ -17,12 +17,12 @@ main:
   - title: "Hobbies"
     url: /teaching/    
     
-  #- title: "Portfolio"
-  #  url: /portfolio/
-        
+  - title: "Research Experience"
+    url: /portfolio/
+
   #- title: "Blog Posts"
   #  url: /year-archive/
-    
+
   - title: "My CV"
     url: /cv/
     

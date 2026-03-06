@@ -154,7 +154,8 @@ redirect_from:
 * **PCB**：KiCad、AD、立创 EDA
 * **控制与仿真**：MATLAB/Simulink、PSIM、Multisim
 * **机器人与飞控**：ROS、PX4
-* **软件**：Qt、Unity、SolidWorks
+* **其他**：Qt、Unity、SolidWorks 
+* **软件**：C++ 、C 、Python
 
 ## 荣誉
 
