@@ -3,220 +3,216 @@ title: "College Students'Innovation Program"
 excerpt: "Summarized some of the work content in the laboratory"
 collection: portfolio
 ---
+ 
+## Vision-Guided Precision Flight System  
 
-## Vision-Guided Precision Flight System
+You can click here to get more details：[Report(PDF)]({{ site.baseurl }}/files/College_innovation.pdf).   
 
-**National Undergraduate Innovation Training Program**  
-You can click here to get more details[Report(PDF)]({{ site.baseurl }}/files/College_innovation.pdf). 
-
-Principal Investigator: Xiangyu Mo  
-Team Members: Dinghe Guo, Haowen Zheng, Weicheng Wang  
-Supervisor: Chengliang Wang  
-
----
-
-## Research Background
-
-In emergency response scenarios such as vehicle fires, early-stage building fires, and hazardous material environments, traditional manual deployment of firefighting devices suffers from several limitations:
-
-- low delivery accuracy  
-- limited deployment range  
-- high risk to personnel  
-
-To address these challenges, this project investigates a **vision-guided precision flight system** capable of autonomous target detection and guided impact delivery.
-
-We propose a **hierarchical guidance architecture** combining a **ground-based launcher guidance system** and an **onboard terminal correction mechanism**, enabling accurate target engagement with lightweight airborne hardware.
+**Project Type:** National Undergraduate Innovation and Entrepreneurship Training Program  
+**Project Role:** Project Leader & Electrical Control System Developer  
+**Institution:** Chongqing University  
+**Advisor:** Prof. Chengliang Wang  
+**Project Duration:** Oct 2024 – Dec 2025  
 
 ---
 
-## Research Objectives
+# 1. Research Background
 
-The project aims to develop a **miniature vision-guided flight system** with the following capabilities:
+Accurate delivery of payloads in hazardous environments such as early-stage warehouse fires or confined industrial spaces requires **high-precision targeting and rapid deployment mechanisms**.
 
-- visual target detection
-- flight attitude control
-- trajectory correction
-- precision payload delivery
+Traditional solutions often rely on manual throwing devices or bulky robotic platforms, which suffer from:
 
-The system integrates:
+- limited deployment distance
+- low targeting accuracy
+- high operational cost
 
-- a launcher vision platform
-- an embedded flight control system
-- a guided projectile structure
-- a coordinated control framework
-
----
-
-## System Architecture
-
-The system consists of two major subsystems:
-
-### Launcher Guidance Platform
-
-The launcher integrates:
-
-- industrial camera
-- NUC embedded computer
-- OpenCV-based vision processing
-
-Functions include:
+To address these challenges, this project proposes a **vision-guided precision flight system** integrating:
 
 - target detection
-- target direction estimation
-- launcher orientation control
+- launch platform alignment
+- guided flight control
+- payload delivery
 
-A **two-axis gimbal (Yaw / Pitch)** adjusts the launch direction to minimize the initial trajectory error.
+The system enables autonomous targeting and launch of lightweight guided flying objects for precision strike or payload deployment.
+
+The proposed architecture combines **mechanical launch systems, embedded control systems, and visual perception modules** into a unified robotic system. :contentReference[oaicite:0]{index=0}
+
+---
+
+# 2. System Architecture
+
+The complete system consists of two main subsystems:
+
+### Launch Platform
+
+Responsible for:
+
+- visual target detection
+- orientation adjustment
+- controlled launch
+
+Key components include:
+
+- Industrial camera + edge computer
+- Yaw–Pitch two-axis pointing mechanism
+- Friction-wheel launch module
+- Embedded control system
+
+The platform automatically detects target direction and aligns the launcher before releasing the guided vehicle. :contentReference[oaicite:1]{index=1}
 
 ---
 
 ### Guided Flight Vehicle
 
-The projectile integrates:
+The guided vehicle integrates:
 
-- STM32H743 flight controller
-- IMU inertial sensor
-- OpenMV embedded vision module
-- servo control surfaces
-- onboard power management system
+- onboard camera
+- IMU sensors
+- flight control processor
+- control surfaces and actuators
 
-The onboard system performs:
-
-- attitude estimation
-- visual target tracking
-- flight trajectory correction
-
-The onboard vision module performs **terminal guidance adjustments** during the descent phase.
+Within a compact internal volume, the vehicle integrates sensing, control and payload modules while maintaining flight stability. :contentReference[oaicite:2]{index=2}
 
 ---
+
+# 3. Hardware and Mechanical Design
 
 ### Launch Mechanism
 
-The launcher uses a **high-speed friction wheel acceleration system**:
+After evaluating several candidate mechanisms including:
 
-- DJI 3508 motors drive the friction wheels
-- large inertia wheels ensure stable launch velocity
-- four projectiles can be loaded simultaneously
+- spring launch
+- electromagnetic launch
+- friction wheel launch
 
-The launcher platform provides:
+the system adopted a **dual friction wheel launch mechanism** due to its:
 
-- two-axis orientation control
-- precision screw-drive positioning
-- modular payload loading
+- lower mechanical shock
+- higher repeatability
+- stable initial velocity
 
----
-
-## Research Process
-
-The project follows a **system engineering methodology**, progressing through several development stages.
-
-### Stage 1 – Requirement Analysis
-
-- Investigation of current firefighting delivery methods
-- Comparison of **laser, infrared, and vision guidance**
-- Selection of **vision-based guidance**
-- Development of the cooperative guidance architecture
+Experiments show that when the wheel speed reaches **4000 rpm**, the vehicle can achieve a flight range of approximately **20 meters**. :contentReference[oaicite:3]{index=3}
 
 ---
 
-### Stage 2 – Aerodynamic and Structural Design
+### Structural Design
 
-Initial prototypes used a **fixed-wing configuration**, which showed insufficient stability.
+Several engineering optimizations were implemented:
 
-The design was later replaced with an **X-tail configuration**, providing:
+- cross-roller bearing yaw support to improve structural rigidity
+- ball screw + linear rail mechanisms for precise pointing
+- large-diameter friction wheels to reduce acceleration shock
 
-- improved aerodynamic stability
-- independent control surfaces
-- better trajectory control authority
-
-Multiple prototype iterations were tested through simulation and experimental launches.
+These optimizations significantly improved launch consistency and system reliability. :contentReference[oaicite:4]{index=4}
 
 ---
 
-### Stage 3 – Embedded System Development
+# 4. Visual Perception and Target Detection
 
-The embedded avionics system includes:
+The launch platform uses a **monocular camera system** combined with computer vision algorithms.
 
-- STM32H743 flight controller
-- OpenMV vision processor
-- power management module
-- multi-servo control system
+The detection pipeline includes:
 
-Development tasks included:
+1. Gaussian filtering for noise reduction  
+2. HSV color-space threshold segmentation  
+3. Morphological filtering  
+4. Connected component analysis for target extraction  
 
-- PCB design
-- embedded software architecture
-- flight control algorithm implementation
+Target direction is estimated and transmitted to the launch controller at **50 Hz** for real-time alignment. :contentReference[oaicite:5]{index=5}
 
 ---
 
-### Stage 4 – Integrated System Testing
+# 5. Flight Control and Guidance Algorithm
 
-Extensive experiments were conducted to evaluate:
+The onboard flight control system adopts a **multi-loop control architecture**.
 
-- launcher stability
-- projectile trajectory
-- visual tracking performance
-- launcher auto-aiming accuracy
+### Sensor Fusion
 
-The system was iteratively optimized based on experimental data.
+The system fuses data from:
 
----
+- onboard camera
+- IMU (JY901)
+- visual target offset measurements
 
-## Key Innovations
-
-### Hierarchical Vision Guidance Architecture
-
-The project proposes a **two-layer guidance framework**:
-
-- launcher performs coarse aiming
-- projectile performs terminal guidance
-
-This architecture significantly reduces onboard computational requirements.
+Pixel coordinates from the camera frame are transformed into the world coordinate system using a rotation matrix while compensating for roll and pitch motion. :contentReference[oaicite:6]{index=6}
 
 ---
 
-### V-tail Mixing Flight Control Algorithm
+### Control Strategy
 
-A **V-tail mixing algorithm** is implemented:
+The flight control algorithm includes:
 
-- pitch, yaw, and roll are controlled using shared control surfaces
-- control allocation matrix decouples the torques
-- improves flight control responsiveness
+- attitude stabilization using PID / PD control
+- rate-limited command smoothing
+- roll compensation to reduce visual error
+- visual guidance based on line-of-sight tracking
 
----
-
-### Highly Integrated Projectile Design
-
-The projectile integrates all avionics into a compact body with a cross-section of:40 mm × 40 mm
-Despite the limited space, the design accommodates:
-
-- flight controller
-- vision module
-- power system
-- actuator mechanisms
+These algorithms ensure stable flight while maintaining target tracking capability.
 
 ---
 
-### Modular Launcher Platform
+# 6. Embedded System Design
 
-The launcher adopts a **modular design**:
+The electrical system adopts a **distributed architecture** consisting of three boards:
 
-- multi-projectile loading
-- interchangeable payload module
-- high repeatability launch mechanism
+- main flight controller
+- vision processing module
+- power management board
+
+The system is designed around **STM32H743 embedded processors** and integrates multiple sensors and actuators within a highly constrained internal space. :contentReference[oaicite:7]{index=7}
+
+To reduce payload weight and energy consumption, computationally intensive visual tasks are offloaded to the ground station. :contentReference[oaicite:8]{index=8}
+
+---
+
+# 7. Experimental Validation
+
+Multiple rounds of system testing were conducted, including:
+
+- wind tunnel experiments
+- launch platform calibration
+- real-world flight testing
+- multi-cycle launch reliability testing
+
+Key experimental findings include:
+
+- launch speed variation < 3%  
+- stable flight control after launch  
+- reliable target alignment and delivery
+
+The system maintained structural integrity after **over 2000 launch cycles**. :contentReference[oaicite:9]{index=9}
 
 ---
 
-## Outcomes
+# 8. My Research Contributions
 
-The project successfully developed:
+As the **project leader**, my responsibilities focused on system-level engineering and embedded control implementation.
 
-- guided projectile prototypes
-- launcher control system
-- vision tracking algorithms
-- embedded flight control system
-- integrated system testing platform
+My main contributions include:
 
-The results provide a practical engineering approach for **lightweight precision delivery systems**.
+- designing the electrical architecture of the guided flight vehicle
+- developing embedded control firmware for flight stabilization
+- integrating IMU sensors, camera modules, and control actuators
+- implementing visual-guided flight control algorithms
+- coordinating launch platform and vehicle control interaction
+- organizing system-level testing and performance evaluation
+
+Through this project, I developed strong capabilities in **robotic system integration, embedded control design, and experimental validation**.
 
 ---
+
+# 9. Research Significance
+
+This project demonstrates a low-cost and modular solution for **vision-guided precision delivery systems**.
+
+The proposed system architecture highlights the importance of **co-design between mechanical systems, control algorithms, and perception modules**.
+
+The work provides practical experience in:
+
+- robotics system engineering
+- autonomous guidance systems
+- embedded flight control development
+
+---
+
+**Keywords:** Robotics, Vision Guidance, Autonomous Systems, Flight Control, Embedded Systems
