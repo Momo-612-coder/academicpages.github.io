@@ -6,8 +6,8 @@ collection: portfolio
 
 ## Vision-Guided Precision Flight System
 
-**National Undergraduate Innovation Training Program**
-[Report(PDF)]({{ site.baseurl }}/files/College_innovation.pdf). 
+**National Undergraduate Innovation Training Program**  
+You can click here to get more details[Report(PDF)]({{ site.baseurl }}/files/College_innovation.pdf). 
 
 Principal Investigator: Xiangyu Mo  
 Team Members: Dinghe Guo, Haowen Zheng, Weicheng Wang  
